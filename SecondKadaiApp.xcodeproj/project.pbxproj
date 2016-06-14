@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BE0E71A1D0FFC2500BE81A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0E7191D0FFC2500BE81A2 /* AppDelegate.swift */; };
+		5BE0E71C1D0FFC2500BE81A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0E71B1D0FFC2500BE81A2 /* ViewController.swift */; };
+		5BE0E71F1D0FFC2500BE81A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE0E71D1D0FFC2500BE81A2 /* Main.storyboard */; };
+		5BE0E7211D0FFC2500BE81A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE0E7201D0FFC2500BE81A2 /* Assets.xcassets */; };
+		5BE0E7241D0FFC2500BE81A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE0E7221D0FFC2500BE81A2 /* LaunchScreen.storyboard */; };
+		5BE0E72F1D0FFC2500BE81A2 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0E72E1D0FFC2500BE81A2 /* SecondKadaiAppTests.swift */; };
+		5BE0E73A1D0FFC2500BE81A2 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0E7391D0FFC2500BE81A2 /* SecondKadaiAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BE0E72B1D0FFC2500BE81A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE0E70E1D0FFC2500BE81A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE0E7151D0FFC2500BE81A2;
+			remoteInfo = SecondKadaiApp;
+		};
+		5BE0E7361D0FFC2500BE81A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE0E70E1D0FFC2500BE81A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE0E7151D0FFC2500BE81A2;
+			remoteInfo = SecondKadaiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BE0E7161D0FFC2500BE81A2 /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE0E7191D0FFC2500BE81A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BE0E71B1D0FFC2500BE81A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BE0E71E1D0FFC2500BE81A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BE0E7201D0FFC2500BE81A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BE0E7231D0FFC2500BE81A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BE0E7251D0FFC2500BE81A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE0E72A1D0FFC2500BE81A2 /* SecondKadaiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE0E72E1D0FFC2500BE81A2 /* SecondKadaiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppTests.swift; sourceTree = "<group>"; };
+		5BE0E7301D0FFC2500BE81A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE0E7351D0FFC2500BE81A2 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE0E7391D0FFC2500BE81A2 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
+		5BE0E73B1D0FFC2500BE81A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BE0E7131D0FFC2500BE81A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE0E7271D0FFC2500BE81A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE0E7321D0FFC2500BE81A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE0E70D1D0FFC2500BE81A2 = {
+			isa = PBXGroup;
+			children = (
+				5BE0E7181D0FFC2500BE81A2 /* SecondKadaiApp */,
+				5BE0E72D1D0FFC2500BE81A2 /* SecondKadaiAppTests */,
+				5BE0E7381D0FFC2500BE81A2 /* SecondKadaiAppUITests */,
+				5BE0E7171D0FFC2500BE81A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE0E7171D0FFC2500BE81A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE0E7161D0FFC2500BE81A2 /* SecondKadaiApp.app */,
+				5BE0E72A1D0FFC2500BE81A2 /* SecondKadaiAppTests.xctest */,
+				5BE0E7351D0FFC2500BE81A2 /* SecondKadaiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE0E7181D0FFC2500BE81A2 /* SecondKadaiApp */ = {
+			isa = PBXGroup;
+			children = (
+				5BE0E7191D0FFC2500BE81A2 /* AppDelegate.swift */,
+				5BE0E71B1D0FFC2500BE81A2 /* ViewController.swift */,
+				5BE0E71D1D0FFC2500BE81A2 /* Main.storyboard */,
+				5BE0E7201D0FFC2500BE81A2 /* Assets.xcassets */,
+				5BE0E7221D0FFC2500BE81A2 /* LaunchScreen.storyboard */,
+				5BE0E7251D0FFC2500BE81A2 /* Info.plist */,
+			);
+			path = SecondKadaiApp;
+			sourceTree = "<group>";
+		};
+		5BE0E72D1D0FFC2500BE81A2 /* SecondKadaiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE0E72E1D0FFC2500BE81A2 /* SecondKadaiAppTests.swift */,
+				5BE0E7301D0FFC2500BE81A2 /* Info.plist */,
+			);
+			path = SecondKadaiAppTests;
+			sourceTree = "<group>";
+		};
+		5BE0E7381D0FFC2500BE81A2 /* SecondKadaiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE0E7391D0FFC2500BE81A2 /* SecondKadaiAppUITests.swift */,
+				5BE0E73B1D0FFC2500BE81A2 /* Info.plist */,
+			);
+			path = SecondKadaiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BE0E7151D0FFC2500BE81A2 /* SecondKadaiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE0E73E1D0FFC2500BE81A2 /* Build configuration list for PBXNativeTarget "SecondKadaiApp" */;
+			buildPhases = (
+				5BE0E7121D0FFC2500BE81A2 /* Sources */,
+				5BE0E7131D0FFC2500BE81A2 /* Frameworks */,
+				5BE0E7141D0FFC2500BE81A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondKadaiApp;
+			productName = SecondKadaiApp;
+			productReference = 5BE0E7161D0FFC2500BE81A2 /* SecondKadaiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BE0E7291D0FFC2500BE81A2 /* SecondKadaiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE0E7411D0FFC2500BE81A2 /* Build configuration list for PBXNativeTarget "SecondKadaiAppTests" */;
+			buildPhases = (
+				5BE0E7261D0FFC2500BE81A2 /* Sources */,
+				5BE0E7271D0FFC2500BE81A2 /* Frameworks */,
+				5BE0E7281D0FFC2500BE81A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE0E72C1D0FFC2500BE81A2 /* PBXTargetDependency */,
+			);
+			name = SecondKadaiAppTests;
+			productName = SecondKadaiAppTests;
+			productReference = 5BE0E72A1D0FFC2500BE81A2 /* SecondKadaiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BE0E7341D0FFC2500BE81A2 /* SecondKadaiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE0E7441D0FFC2500BE81A2 /* Build configuration list for PBXNativeTarget "SecondKadaiAppUITests" */;
+			buildPhases = (
+				5BE0E7311D0FFC2500BE81A2 /* Sources */,
+				5BE0E7321D0FFC2500BE81A2 /* Frameworks */,
+				5BE0E7331D0FFC2500BE81A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE0E7371D0FFC2500BE81A2 /* PBXTargetDependency */,
+			);
+			name = SecondKadaiAppUITests;
+			productName = SecondKadaiAppUITests;
+			productReference = 5BE0E7351D0FFC2500BE81A2 /* SecondKadaiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE0E70E1D0FFC2500BE81A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = huemura;
+				TargetAttributes = {
+					5BE0E7151D0FFC2500BE81A2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5BE0E7291D0FFC2500BE81A2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5BE0E7151D0FFC2500BE81A2;
+					};
+					5BE0E7341D0FFC2500BE81A2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5BE0E7151D0FFC2500BE81A2;
+					};
+				};
+			};
+			buildConfigurationList = 5BE0E7111D0FFC2500BE81A2 /* Build configuration list for PBXProject "SecondKadaiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BE0E70D1D0FFC2500BE81A2;
+			productRefGroup = 5BE0E7171D0FFC2500BE81A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE0E7151D0FFC2500BE81A2 /* SecondKadaiApp */,
+				5BE0E7291D0FFC2500BE81A2 /* SecondKadaiAppTests */,
+				5BE0E7341D0FFC2500BE81A2 /* SecondKadaiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BE0E7141D0FFC2500BE81A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE0E7241D0FFC2500BE81A2 /* LaunchScreen.storyboard in Resources */,
+				5BE0E7211D0FFC2500BE81A2 /* Assets.xcassets in Resources */,
+				5BE0E71F1D0FFC2500BE81A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE0E7281D0FFC2500BE81A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE0E7331D0FFC2500BE81A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE0E7121D0FFC2500BE81A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE0E71C1D0FFC2500BE81A2 /* ViewController.swift in Sources */,
+				5BE0E71A1D0FFC2500BE81A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE0E7261D0FFC2500BE81A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE0E72F1D0FFC2500BE81A2 /* SecondKadaiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE0E7311D0FFC2500BE81A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE0E73A1D0FFC2500BE81A2 /* SecondKadaiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BE0E72C1D0FFC2500BE81A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE0E7151D0FFC2500BE81A2 /* SecondKadaiApp */;
+			targetProxy = 5BE0E72B1D0FFC2500BE81A2 /* PBXContainerItemProxy */;
+		};
+		5BE0E7371D0FFC2500BE81A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE0E7151D0FFC2500BE81A2 /* SecondKadaiApp */;
+			targetProxy = 5BE0E7361D0FFC2500BE81A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BE0E71D1D0FFC2500BE81A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE0E71E1D0FFC2500BE81A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BE0E7221D0FFC2500BE81A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE0E7231D0FFC2500BE81A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BE0E73C1D0FFC2500BE81A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BE0E73D1D0FFC2500BE81A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE0E73F1D0FFC2500BE81A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiro.uemura.SecondKadaiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BE0E7401D0FFC2500BE81A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiro.uemura.SecondKadaiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BE0E7421D0FFC2500BE81A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SecondKadaiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiro.uemura.SecondKadaiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondKadaiApp.app/SecondKadaiApp";
+			};
+			name = Debug;
+		};
+		5BE0E7431D0FFC2500BE81A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SecondKadaiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiro.uemura.SecondKadaiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SecondKadaiApp.app/SecondKadaiApp";
+			};
+			name = Release;
+		};
+		5BE0E7451D0FFC2500BE81A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SecondKadaiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiro.uemura.SecondKadaiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SecondKadaiApp;
+			};
+			name = Debug;
+		};
+		5BE0E7461D0FFC2500BE81A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SecondKadaiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hiro.uemura.SecondKadaiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SecondKadaiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BE0E7111D0FFC2500BE81A2 /* Build configuration list for PBXProject "SecondKadaiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE0E73C1D0FFC2500BE81A2 /* Debug */,
+				5BE0E73D1D0FFC2500BE81A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE0E73E1D0FFC2500BE81A2 /* Build configuration list for PBXNativeTarget "SecondKadaiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE0E73F1D0FFC2500BE81A2 /* Debug */,
+				5BE0E7401D0FFC2500BE81A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BE0E7411D0FFC2500BE81A2 /* Build configuration list for PBXNativeTarget "SecondKadaiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE0E7421D0FFC2500BE81A2 /* Debug */,
+				5BE0E7431D0FFC2500BE81A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BE0E7441D0FFC2500BE81A2 /* Build configuration list for PBXNativeTarget "SecondKadaiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE0E7451D0FFC2500BE81A2 /* Debug */,
+				5BE0E7461D0FFC2500BE81A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BE0E70E1D0FFC2500BE81A2 /* Project object */;
+}
