@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPT-Y2-kdx">
-                                <rect key="frame" x="206.5" y="50" width="187" height="21"/>
+                                <rect key="frame" x="206" y="50" width="187" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KRk-C7-Fxl">
-                                <rect key="frame" x="118.5" y="100" width="337" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KRk-C7-Fxl">
+                                <rect key="frame" x="70" y="100" width="460" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -40,18 +41,20 @@
                         <constraints>
                             <constraint firstItem="NPT-Y2-kdx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="DTY-SV-qqX"/>
                             <constraint firstItem="1bL-q2-ziM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="150" id="F4b-t1-1ng"/>
+                            <constraint firstItem="KRk-C7-Fxl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="HzV-np-BYy"/>
                             <constraint firstItem="1bL-q2-ziM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jnq-cs-VvD"/>
                             <constraint firstItem="NPT-Y2-kdx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SVy-eY-U6d"/>
                             <constraint firstItem="KRk-C7-Fxl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aQ3-6b-9nM"/>
                             <constraint firstItem="NPT-Y2-kdx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="eVO-rO-LqM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KRk-C7-Fxl" secondAttribute="trailing" constant="50" id="h44-bx-IDx"/>
                             <constraint firstItem="KRk-C7-Fxl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="m3c-Gd-fL9"/>
                             <constraint firstItem="KRk-C7-Fxl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="rmx-HF-8DH"/>
                             <constraint firstItem="1bL-q2-ziM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="xE0-L6-MZK"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="DTY-SV-qqX"/>
                                 <exclude reference="rmx-HF-8DH"/>
+                                <exclude reference="DTY-SV-qqX"/>
                                 <exclude reference="xE0-L6-MZK"/>
                             </mask>
                         </variation>
